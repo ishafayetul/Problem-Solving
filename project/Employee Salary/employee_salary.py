@@ -26,4 +26,3 @@ class Candidate(Employee):
         return f"{self.name} may get {self._determineSalary()[0]} BDT"
 person1=Candidate("Shafayet",26,1,8,5)
 
-print(person1)
