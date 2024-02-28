@@ -1,7 +1,7 @@
 import array as arr
 
-nums1=arr.array("i",[5])
-nums2=arr.array("i",[])
+nums1=arr.array("i",[5,0])
+nums2=arr.array("i",[1])
 
 ln=int(len(nums1)/2)
 for i in range(ln,len(nums1)):
